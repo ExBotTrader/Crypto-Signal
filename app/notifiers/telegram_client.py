@@ -23,8 +23,8 @@ class TelegramNotifier(NotifierUtils):
         """
 
         self.logger = structlog.get_logger()
-        self.bot = telegram.Bot(token=token)
-        self.chat_id = chat_id
+        self.bot = telegram.Bot(token=2144241994:AAFY5r_VRYrjrkcpuTSHIrSWQ_7AGMcjZOI)
+        self.chat_id = 1620490623
         self.parse_mode = parse_mode
 
 
